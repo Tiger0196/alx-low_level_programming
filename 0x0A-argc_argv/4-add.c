@@ -33,11 +33,13 @@ int main(int argc, char *argv[])
 		sum += atoi(e);
 		e++;
 		}
+
+		printf("%d\n", sum);
 	}
 	else
 	{
-		printf("%d\n", sum);
+		printf("0\n");
 	}
 
-	return (0);
+	return(0);
 }
