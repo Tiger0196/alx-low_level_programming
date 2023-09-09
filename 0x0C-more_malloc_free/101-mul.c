@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+#define ERR_MSG "Error"
+
 /**
  * is_digit - checks if a string contains a non-digit char
  * @s: string to be evaluated
@@ -47,7 +49,7 @@ void errors(void)
 	exit(98);
 }
 
- /**
+/**
  * main - multiplies two positive numbers
  * @argc: number of arguments
  * @argv: array of arguments
